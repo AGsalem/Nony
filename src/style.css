@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+
+	color: #222;
+	background-color: #ffffff;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	font-family: 'Cairo Variable', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@media (max-width: 639px) {
+	main {
+		margin: 2rem;
+	}
+}
+
+button {
+	cursor: pointer;
+}
